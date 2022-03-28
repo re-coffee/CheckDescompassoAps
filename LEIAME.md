@@ -8,12 +8,7 @@ Runtime Destino       |Win-x64
 Parâmetro de execução |String NomeBanco
 
 # Descrição
-O aplicativo tem como objetivo ao receber parâmetros de banco realizar um select das instâncias instaladas em cada base e gerar um comparativo para as bases que possuem descompasses.
-
-Caso algum dos parâmetros esteja sem o nome do cliente em questão:
- 1. Será atualizado o registro colocando o nome que se encontra após o APW e antes da primeira barra após esse termo;
- 2. Será gerado uma pasta Log na pasta de execução, juntamente com o arquivo com as alterações, contemplando os registros anteriores e atuais, após o ajuste;
- 3. Antes da finalização, será criado um backup do arquivo com o formato de WEB.CONFIG_AAAAMMDD_HHMM no mesmo diretório do web.config em questão.
+O aplicativo tem como objetivo ao receber parâmetros de banco realizar um select das instâncias instaladas em cada base e gerar um comparativo para as bases que possuem descompassos.
 
 # Como utilizar
 Para utilizar, basta colocar os parametros dos nomes dos bancos/instâncias desejadas,
